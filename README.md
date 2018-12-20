@@ -7,7 +7,7 @@ FPExecutable.zip contains the executable for the program. (Runs only on Windows)
 
 PostgreSQL queries for creating the corresponding tables:
 
-          create table miembro (id_miembro bigint, nombre varchar, apellido varchar, fecha_nac date, fecha_ingreso date, mail,     varchar, telefono bigint);
+          create table miembro (id_miembro bigint, nombre varchar, apellido varchar, fecha_nac date, fecha_ingreso date, mail, varchar, telefono bigint);
           alter table miembro add constraint pkIDmiembro primary key (id_miembro);
 
           create table cargos (id_cargo serial, descripcion varchar);
