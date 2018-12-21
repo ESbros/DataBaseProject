@@ -38,7 +38,6 @@ PostgreSQL queries for creating the corresponding tables:
           alter table asistio_r add constraint fkRmiembro foreign key(id_miembro) references miembro(id_miembro);
           alter table asistio_r add constraint fkRviaje foreign key(id_reunion) references reunion(id_reunion);
 
-
           alter table miembro add constraint cIDmiem check(id_miembro > 999999999);
           alter table miembro add constraint cTelmiem check(telefono > 99999999);
 
